@@ -1,0 +1,100 @@
+h1{
+    border: solid;
+    font-size: 100mm;
+    background-color: #FFD700;
+    padding-left: 90px;
+}
+.one{
+    display: flex;
+    justify-content: space-around ;
+}
+.two{
+    display: flex;
+    justify-content: space-around
+    
+}
+.three{
+    display:flex;
+    justify-content:space-around;
+}
+.four{
+    display: flex;
+    justify-content: space-around;
+    ;
+}
+.five{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    background-color:#ff0000
+}
+div {
+    background-color: #FFD700;
+}
+.one {
+    position: relative;
+}
+P{
+    font-size: 40mm;
+}
+.one p{
+    position: absolute;
+    top:50%;
+    transform: translate(-10%,-220%);
+    opacity: 0;
+    
+}
+.one:hover p{
+    opacity: 1;
+}
+.two{
+    position: relative;
+}
+.two p{
+    position: absolute;
+    top:50%;
+    transform: translate(-10%,-40%);
+    opacity: 0;
+}
+.two:hover p{
+    opacity: 1;
+}
+.three{
+    position: relative;
+}
+.three p{
+    position: absolute;
+    top:50%;
+    transform: translate(-10%,-200%);
+    opacity: 0;
+}
+.three:hover p{
+    opacity: 1;
+}
+.four{
+    position: relative;
+}
+.four p{
+    position: absolute;
+    top: 50%;
+    transform: translate(-1%,-80%);
+    opacity: 0;
+    
+}
+.four:hover p{
+    opacity: 1;
+}
+.five{
+    position: relative;
+}
+.five p{
+    position: absolute;
+    top: 50%;
+    transform: translate(-1%,-80%);
+    opacity: 0;
+}
+.five:hover p{
+    opacity: 1;
+}
+
